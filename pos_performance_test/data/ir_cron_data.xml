@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="cron_create_product" model="ir.cron">
+        <field name="name">Create Bunch Test Product Data</field>
+        <field name="model">product.product</field>
+        <field name="function">create_copy_product</field>
+        <field name='interval_number'>1</field>
+        <field name='interval_type'>days</field>
+        <field name="numbercall">-1</field>
+    </record>
+
+    <record id="cron_create_partner" model="ir.cron">
+        <field name="name">Create Bunch Test Partner Data</field>
+        <field name="model">res.partner</field>
+        <field name="function">create_copy_partner</field>
+        <field name='interval_number'>1</field>
+        <field name='interval_type'>days</field>
+        <field name="numbercall">-1</field>
+    </record>
+</odoo>

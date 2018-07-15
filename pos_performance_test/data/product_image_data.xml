@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="false">
+
+        <record id="product_product_tshirt" model="product.product">
+            <field name="image" type="base64" file="pos_performance_test/static/img/t-shirt.jpg"/>
+        </record>
+
+    </data>
+</odoo>
